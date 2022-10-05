@@ -1,0 +1,41 @@
+/* Write some CSS below */
+/* style.css */
+h1 { text-align: center; color: orange; font-family: cursive;}
+
+
+body {font-family: Overpass;color: #404042;font-size: 22px;}
+a { color: white;font-weight; background-color: black }
+a {border: 20px solid orange; text-align: right;}
+
+h2 { text-align: center; color: #EC8556; font-family: alkalami ;}
+
+h3 { text-align: center; color: Gray; font-family: Chivo;}
+
+img{text-align: center;}
+p { text-align: center; color: black;}
+
+.container {
+	text-align: center;
+	width:800px;
+	margin: auto;
+}
+.banner{text-align:center; background-position: center;background-image:url('images/background.jpg') ;padding: 100px}
+.card-white { text-align:center ; background: white; margin:20px; box-shadow: 10px 20px 30px black; width: 250px }
+.cards {text-align:center;display: grid;
+ grid-template-columns: 1fr 1fr 1fr; }
+
+ @media (max-width: 800px) {
+  .cards {grid-template-columns: 1fr;}
+  
+  .card-white { width: auto; }
+
+
+.footer p {
+  background: black;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+}
